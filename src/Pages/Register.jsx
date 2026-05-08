@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Logo from '../assets/noternal_logo.png'
+import Logo from '../assets/noternal-logo.png'
 import { cleanDisplayName, findUser, normalizeEmail, setCurrentUser, upsertUser } from "../utils/storage";
 
 const RegistrationScreen = () => {

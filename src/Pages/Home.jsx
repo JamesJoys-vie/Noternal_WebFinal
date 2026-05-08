@@ -5,11 +5,11 @@ import {
   ListBulletIcon, DocumentTextIcon, ArrowUturnLeftIcon, 
   Squares2X2Icon, TagIcon, InboxArrowDownIcon
 } from '@heroicons/react/24/outline';
-import Logo from '../assets/noternal_logo.png'
+import Logo from '../assets/noternal-logo.png'
 import { FunnelIcon } from '@heroicons/react/24/solid';
-import { useTheme } from '../contexts/theme_context';
+import { useTheme } from '../contexts/theme-context';
 import { FilterMenu } from "../components/filter";
-import { useLayout } from '../contexts/layout_context';
+import { useLayout } from '../contexts/layout-context';
 import { SettingsMenu } from "../components/setting";
 import { ProfileMenu } from "../components/profile";
 import NoteForm from '../components/note';

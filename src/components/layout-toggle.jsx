@@ -1,5 +1,5 @@
 import { Squares2X2Icon, TableCellsIcon } from '@heroicons/react/24/outline';
-import { useLayout } from '../contexts/layout_context';
+import { useLayout } from '../contexts/layout-context';
 
 export function LayoutToggle() {
   const { viewMode, toggleViewMode } = useLayout();

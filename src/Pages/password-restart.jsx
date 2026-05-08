@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import Logo from '../assets/noternal_logo.png'
+import Logo from '../assets/noternal-logo.png'
 import { clearCurrentUser, clearResetOtp, findUser, getCurrentUser, upsertUser } from "../utils/storage";
 
 const RenewPW = () => {

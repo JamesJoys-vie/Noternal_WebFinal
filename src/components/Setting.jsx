@@ -1,5 +1,5 @@
-import ThemeToggle from './toggle_theme';
-import { useTheme } from '../contexts/theme_context';
+import ThemeToggle from './toggle-theme';
+import { useTheme } from '../contexts/theme-context';
 
 export const SettingsMenu = () => {
   const { noteColor, setNoteColor, colorPalette } = useTheme();

@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import Logo from '../assets/noternal_logo.png'
+import Logo from '../assets/noternal-logo.png'
 import { createResetOtp, getResetOtp } from "../utils/storage";
 
 const PasscodeAu = () => {
