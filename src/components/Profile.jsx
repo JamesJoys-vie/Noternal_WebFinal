@@ -33,7 +33,7 @@ export const ProfileMenu = ({ user, onUserUpdate }) => {
 
   const handleLogout = () => {
     clearCurrentUser();
-    navigate('/Login');
+    navigate('/login');
   };
 
   return (
@@ -72,7 +72,7 @@ export const ProfileMenu = ({ user, onUserUpdate }) => {
 
       {/* Bottom Actions */}
       <div className="w-full flex justify-between items-end">
-        <Link to="/password_restart" state={{ from: '/home', mode: 'profile' }}>
+        <Link to="/password-restart" state={{ from: '/home', mode: 'profile' }}>
           <button className="text-sm text-left hover:underline transition-colors text-[#3a2a7a] dark:text-[#a890ff]">
             Change<br/>password
           </button>

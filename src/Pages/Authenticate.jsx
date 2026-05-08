@@ -40,7 +40,7 @@ const PasscodeAu = () => {
       return;
     }
 
-    navigate("/password_restart", {
+    navigate("/password-restart", {
       state: { from: "/authenticate", email: savedOtp.email, mode: "forgot" },
     });
   };
