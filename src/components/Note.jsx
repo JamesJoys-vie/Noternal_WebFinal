@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { ImagePlus, Lock, Pin, Share2, Trash2, Unlock, X } from 'lucide-react';
-import { useTheme } from '../contexts/ThemeContext';
+import { useTheme } from '../contexts/theme_context';
 import { makeNoteImageKey, saveNoteImage } from '../utils/storage';
 
 const NoteForm = ({

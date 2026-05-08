@@ -23,7 +23,7 @@ const LoginScreen = () => {
     }
 
     setCurrentUser(normalizeEmail(form.email));
-    navigate("/Home");
+    navigate("/home");
   };
 
   return (
@@ -66,7 +66,7 @@ const LoginScreen = () => {
 
           <div className="mt-1">
             <Link 
-              to="/ForgotPassword"
+              to="/forgot_password"
               className="text-black text-sm underline hover:text-indigo-900 transition-colors"
             >
               Forgot password?
@@ -81,7 +81,7 @@ const LoginScreen = () => {
         )}
 
         <div className="flex justify-between gap-4 mt-4">
-          <Link to="/Register">
+          <Link to="/register">
             <button type="button" className="flex bg-white text-[#4a1c82] text-lg font-semibold py-2 px-6 rounded-full hover:bg-[#7a7a7a] hover:text-[#f1f1f1] hover:shadow-lg transition-all duration-300 shadow-md">
               Don't have account?
             </button>

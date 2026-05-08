@@ -7,12 +7,12 @@ import {
 } from '@heroicons/react/24/outline';
 import Logo from '../assets/noternal_logo.png'
 import { FunnelIcon } from '@heroicons/react/24/solid';
-import { useTheme } from '../contexts/ThemeContext';
-import { FilterMenu } from "../components/Filter";
-import { useLayout } from '../contexts/LayoutContext';
-import { SettingsMenu } from "../components/Setting";
-import { ProfileMenu } from "../components/Profile";
-import NoteForm from '../components/Note';
+import { useTheme } from '../contexts/theme_context';
+import { FilterMenu } from "../components/filter";
+import { useLayout } from '../contexts/layout_context';
+import { SettingsMenu } from "../components/setting";
+import { ProfileMenu } from "../components/profile";
+import NoteForm from '../components/note';
 import {
   findUser,
   getAllNotes,
@@ -50,7 +50,7 @@ function NoternalApp() {
 
   useEffect(() => {
     if (!currentUser) {
-      navigate('/Login');
+      navigate('/login');
     }
   }, [currentUser, navigate]);
 

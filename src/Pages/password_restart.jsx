@@ -26,7 +26,7 @@ const RenewPW = () => {
     if (window.history.length > 1) {
       navigate(-1);
     } else {
-      navigate(isForgotFlow ? "/Authenticate" : "/Home");
+      navigate(isForgotFlow ? "/authenticate" : "/home");
     }
   };
 
@@ -56,7 +56,7 @@ const RenewPW = () => {
     upsertUser({ ...targetUser, password: form.newPassword });
     clearResetOtp();
     clearCurrentUser();
-    navigate("/Login");
+    navigate("/login");
   };
 
   return (

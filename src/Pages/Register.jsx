@@ -48,7 +48,7 @@ const RegistrationScreen = () => {
 
     upsertUser({ email, displayName, password: form.password });
     setCurrentUser(email);
-    navigate("/Home");
+    navigate("/home");
   };
 
   return (
@@ -129,7 +129,7 @@ const RegistrationScreen = () => {
             Sign-up
           </button>
 
-          <Link to="/Login">
+          <Link to="/login">
             <button type="button" className="flex bg-white text-[#4a1c82] text-lg font-semibold py-2 px-6 rounded-full hover:bg-[#7a7a7a] hover:text-[#f1f1f1] hover:shadow-lg transition-all duration-300 shadow-md">
               Have an account?
             </button>

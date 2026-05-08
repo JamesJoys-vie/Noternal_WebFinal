@@ -72,7 +72,7 @@ export const ProfileMenu = ({ user, onUserUpdate }) => {
 
       {/* Bottom Actions */}
       <div className="w-full flex justify-between items-end">
-        <Link to="/PasswordRestart" state={{ from: '/Home', mode: 'profile' }}>
+        <Link to="/password_restart" state={{ from: '/home', mode: 'profile' }}>
           <button className="text-sm text-left hover:underline transition-colors text-[#3a2a7a] dark:text-[#a890ff]">
             Change<br/>password
           </button>
