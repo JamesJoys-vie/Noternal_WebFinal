@@ -66,7 +66,7 @@ const LoginScreen = () => {
 
           <div className="mt-1">
             <Link 
-              to="/forgot_password"
+              to="/forgot-password"
               className="text-black text-sm underline hover:text-indigo-900 transition-colors"
             >
               Forgot password?
