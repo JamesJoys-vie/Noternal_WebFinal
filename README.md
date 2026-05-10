@@ -20,5 +20,7 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Group's members:
 
 524H0086 - Tran Hong Nhat Duy
+
 524H0023 - Huynh Tran Thien Phu
+
 524H0081 - Phan Huy Binh
