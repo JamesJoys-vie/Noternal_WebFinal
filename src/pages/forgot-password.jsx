@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Logo from '../assets/noternal-logo.png'
 import { createResetOtp, findUser, normalizeEmail } from "../utils/storage";
 
+
 const ResetPW = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
